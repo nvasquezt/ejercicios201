@@ -1,4 +1,5 @@
 ###############################################################################
+#
 # 1. Diseñe una funcion que calcule la cantidad de carne de aves en kilos
 # si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6
 # kilos, 7 kilos y 1 kilo respectivamente.
@@ -16,4 +17,25 @@
 # duplica cada dıa. Hacer un programa que diga el numero total de
 # personas que se han contagiado cuando pasen D dıas a partir de hoy,
 # si el numero de contagiados actuales es C.
+#
 ###############################################################################
+
+###############################################################################
+#Primer punto
+def totalCarne(gallinas,gallos,pollitos):
+    n=6
+    m=7
+    k=1
+    pesoTotal=(n*gallinas)+(m*gallos)+(k*pollitos)
+    return pesoTotal
+
+print(totalCarne(4,5,2))
+
+###############################################################################
+#Segundo punto
+
+###############################################################################
+#Tercer punto
+
+###############################################################################
+#Cuarto punto
