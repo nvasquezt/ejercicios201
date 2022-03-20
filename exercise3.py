@@ -1,6 +1,3 @@
-from pickle import APPEND
-
-
 def recibe(arreglo, objetivo):
     result=[]
     for i in arreglo:
