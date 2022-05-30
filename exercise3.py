@@ -1,4 +1,4 @@
-from pickle import APPEND
+'''from pickle import APPEND
 
 
 def recibe(arreglo, objetivo):
@@ -12,6 +12,15 @@ def recibe(arreglo, objetivo):
                 result.append(arreglo.index(j))
     return result
 
-print(recibe([8,2,4],6))
+print(recibe([8,2,4],6))'''
         
+import pandas as pd
 
+datos = {
+    "Alimentos": ["manzana", "Pera", "Piña", "arandano","fresa"],
+    "calorias":[52,55,55,35,32]
+}
+
+df = pd.DataFrame(datos)
+
+print(df)
